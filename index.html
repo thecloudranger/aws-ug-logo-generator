@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>AWS UG Logo Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              amazonember: ["Amazon Ember"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <div class="space-y-4">
+      <div>
+        <h1 class = "text-3xl font-amazonember" align="center">
+          AWS UG Communities Logo Generator
+        </h1>
+    
+      </div>
+      <div>
+        <img
+          id="aws-badge"
+          src="/assets/aws/badge_dark-19.svg"
+          style="width: 20%; height: 20%; display: none"
+        />
+      </div>
+  
+      <div class="md:container font-amazonember">
+        <div align="center">
+          <textarea class="border p-1" id="city-text"></textarea>
+        </div>
+        <br /><br /><br />
+        <div align="center" style="width: 100%">
+          <canvas id="logo-canvas" title="Right click to save this logo"></canvas>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url('assets/fonts/AmazonEmber_Rg.ttf');
+}
+/* @font-face {
+  font-family:'Amazon Ember';
+  src: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2) format("woff2"),url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_rg-8a9db402d8966ae93717c348b9ab0bd08703a7a7._V2_.woff) format("woff")
+  } */
+  
+  body {
+    margin: 10px;
+    background-color: #ffffff;
+  }
